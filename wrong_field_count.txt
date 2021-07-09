@@ -1,0 +1,51 @@
+LINES WITH INCORRECT FIELD COUNT:
+FIELD COUNTS FOR LINES:[224, 0, 9, 2060, 4, 1, 0, 0, 0, 0]
+4 FIELDS: [TIME, PERSON, LOCATION, CIRCUMSTANCES] 
+
+
+TOO FEW FIELD COUNTS:
+
+X NO LOCATION
+FIELDS: 3, MISSING: 1, LINE: ['10:00 p.m.', 'Kristine Joy Sailog, 12-year-old casualty', nolocation | 'Killed by unknown hitmen during Mass']
+
+X NO LOCATION OR CIRCUMSTANCES (JOIN FIELD 2 & 3, add 'Killed by unknown hitmen') 
+FIELDS: 3, MISSING: 1, LINE: ['1:15 a.m.', 'Unidentified drug suspect #402', 'Found dead with a sign on his body saying, “#nagmahal #nagbasag kotse #nagtulak #namatay”']
+
+X NO LOCATION
+FIELDS: 3, MISSING: 1, LINE: ['8:05 p.m.', 'Mark Anthony Galindez, alias “Toto Luha,” on his local police’s drug watch list', 'Killed in police buy-bust operation']
+
+X NO '\' AFTER LOCATION
+FIELDS: 3, MISSING: 1, LINE: ['3:00 a.m.', 'Jerome Abad, on his city’s drug watch list and who allegedly returned to the drug trade despite earlier surrendering to police during Oplan “TokHang”', 'Mandaue City, Cebu  Killed in police buy-bust operation']
+
+X NO '\' AFTER LOCATION
+FIELDS: 3, MISSING: 1, LINE: ['3:00 a.m.', 'Junmar Abad, son of Jerome', 'Mandaue City, Cebu  Killed in police buy-bust operation']
+
+X MISSING LAST FIELD, CIRCUMSTANCES
+FIELDS: 3, MISSING: 1, LINE: ['11:30 a.m.', 'PO3 Nestor Dimaano, assigned in his city police station (but was suspended due to administrative charges) and on his city’s drug watch list', 'Batangas City, Batangas']
+
+X NO LOCATION
+FIELDS: 3, MISSING: 1, LINE: ['8:30 p.m.', 'former PO3 Edmundo Plamenco, who was dismissed after being implicated in the illegal drug trade', 'Killed by unknown hitmen']
+
+X NO LOCATION
+FIELDS: 3, MISSING: 1, LINE: ['Evening', 'Dennis Ragub, alias “Buwaya,” suspected drug pusher and robber', 'Killed while being served an arrest warrant']
+
+X NO LOCATION
+FIELDS: 3, MISSING: 1, LINE: ['Evening', 'Frank Bural, alias “Panke,” suspected drug pusher and robber', 'Killed while being served an arrest warrant']
+
+
+TOO MANY FIELD COUNTS:
+
+X CUT TWO FIELDS: 'Killed in clash with police and rebels, allegedly among those coddling fugitive Mayor Sabal', 'Liguasan Marsh, Cotabato', 
+FIELDS: 6, MISSING: -2, LINE: [' ', 'Unidentified drug suspect #396, allegedly among those coddling fugitive Mayor Sabal', 'Liguasan Marsh, Cotabato', 'Killed in clash with police and rebels, allegedly among those coddling fugitive Mayor Sabal', 'Liguasan Marsh, Cotabato', 'Killed in clash with police and rebels']
+
+DELETE - MISCLASSIFICATION 
+FIELDS: 5, MISSING: -1, LINE: [' ', 'Before dawn', 'September Ann Paz, nurse', 'Quezon City, Metro Manila', 'Killed by a man who robbed her while drunk and high']
+
+X EXTRA BLANK FIELD:  '' 
+FIELDS: 5, MISSING: -1, LINE: ['8:30 a.m.', 'Unidentified drug suspect #219, companion of Sisracon', '', 'Naic town, Cavite', 'Killed while being served a search warrant']
+
+X  EXTRA BLANK FIELD:  ' ' 
+FIELDS: 5, MISSING: -1, LINE: [' ', 'Late afternoon', 'PO1 Dave Agcol, former policeman who was dismissed from the service over his alleged involvement in illegal drugs', 'Naga City, Cebu', 'Killed in police shootout; his wife, also a policewoman, was arrested']
+
+EXTRA BLANK FIELD:  ' ' 
+FIELDS: 5, MISSING: -1, LINE: [' ', 'Dario Abucay Achay', 'suspected drug pusher who refused to surrender during Oplan “TokHang”', 'Consolacion town, Cebu', 'Killed by unknown hitmen']

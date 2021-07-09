@@ -1,0 +1,1 @@
+FIELDS: 5, MISSING: -1, LINE: [' ', 'Before dawn', 'September Ann Paz, nurse', 'Quezon City, Metro Manila', 'Killed by a man who robbed her while drunk and high']

@@ -1,0 +1,7 @@
+['7:30 o.m.', 'Unidentified drug suspect #407, suspected drug user and alleged accomplice of Alvintura', 'Caloocan City, Metro Manila', 'Killed in police shootout']
+['1:00 am.', 'Jaime Bayaca Ong', 'Tondo, Manila', 'Found dead with a sign saying, “drug lord ako/Chinese.”']
+['2:30 am.', 'Unidentified drug suspect #78', 'Rodriguez town, Rizal', 'Killed in police shootout after firing first']
+['1 p.m.', 'Jack Bertulfo, suspected drug pusher', 'Olongapo City, Zambales', 'Killed while being served a search warrant']
+['3 p.m.', 'Ricky Potot, suspected drug pusher', 'Mandaue City, Cebu', 'Killed in police buy-bust operation after refusing to surrender']
+
+​
